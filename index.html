@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1> Galería Kiara</h1>
+        <p>La mujer mas bella💕</p>
+        <div class="music-container">
+            <button id="playButton" class="music-button">
+                
+                <span class="button-text">♪ Play ♪</span>
+                <audio id="songAudio" src="song/song.mp3"></audio>
+            </button>
+        </div>
+    </header>
+    <main class="gallery">
+        <img src="images/ima1.jpg" alt="Momento especial 1" loading="lazy">
+        <img src="images/ima2.jpg" alt="Momento especial 2" loading="lazy">
+        <img src="images/ima3.jpg" alt="Momento especial 3" loading="lazy">
+        <img src="images/ima4.jpg" alt="Momento especial 4" loading="lazy">
+        <img src="images/ima5.jpg" alt="Momento especial 5" loading="lazy">
+        <img src="images/ima6.jpg" alt="Momento especial 6" loading="lazy">
+        <img src="images/ima7.jpg" alt="Momento especial 7" loading="lazy">
+        <img src="images/ima8.jpg" alt="Momento especial 8" loading="lazy">
+        <img src="images/ima9.jpg" alt="Momento especial 9" loading="lazy">
+        <img src="images/ima10.jpg" alt="Momento especial 10" loading="lazy">
+    </main>
+    <footer>
+        <h1> Propiedad de Yeicol</h1>
+        <p> Esta vez si me estoy pasando de labioso</p>
+        <h2>❤️❤️❤️🌻🌻🌻🌻❤️❤️❤️</h2>
+
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img id="lightbox-img" src="" alt="Imagen ampliada">
+    </div>
+
+    <script src="js/music.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+
+</html>
